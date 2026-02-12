@@ -1,0 +1,295 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #0f1424;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Layout */
+.dashboard {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  width: 90%;
+  max-width: 1100px;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #1c1f4d;
+  border-radius: 15px;
+  overflow: hidden;
+  display: block;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.profile-info {
+  background-color: #5746ea;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.avatar {
+  width: 70px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile-info h2 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.profile-info h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.report-options {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.report-options button {
+  background: none;
+  border: none;
+  color: #bbb;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.report-options button:hover,
+.report-options button.active {
+  color: #fff;
+}
+
+/* Activity Grid */
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+
+}
+
+/* Activity Cards */
+.activity-card {
+  border-radius: 15px;
+  padding: 1.5rem;
+  position: relative;
+  color: #fff;  
+
+
+
+
+}
+
+/* Different background colors */
+.work { background-color: /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #0f1424;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Layout */
+.dashboard {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  width: 90%;
+  max-width: 1100px;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #1c1f4a;
+  border-radius: 15px;
+  overflow: hidden;
+  display: block;
+  align-items: center;
+  justify-content: unsafe-stretch;
+
+}
+
+.profile-info {
+  background-color: #5746ea;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.avatar {
+  width: 70px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile-info h2 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.profile-info h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.report-options {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.report-options button {
+  background: none;
+  border: none;
+  color: #bbb;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.report-options button:hover,
+.report-options button.active {
+  color: #fff;
+}
+
+/* Activity Grid */
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+/* Activity Cards */
+.activity-card {
+  border-radius: 15px;
+  padding: 1.5rem;
+  position: relative;
+  color: #fff;
+}
+
+/* Different background colors */
+.work { background-color: #fd6d3d; }
+.play { background-color: #56c2e6; }
+.study { background-color: #ff5c7c; }
+.exercise { background-color: #4acf81; }
+.social { background-color: #7536d3; }
+.self-care { background-color: #f1c75b; }
+
+.activity-card header {
+  margin-bottom: 1rem;
+}
+
+.activity-card h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.activity-data {
+  background-color: #1c1f4a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.activity-data .current {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity-data .previous {
+  font-size: 0.85rem;
+  color: #bbb;
+}
+
+/* Responsive */
+@media (max-width: 80px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .report-options {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}; 
+
+}
+
+.work { background-color: #fd6d3d; }
+.play { background-color: #56c2e6; }
+.study { background-color: #ff5c7c; }
+.exercise { background-color: #4acf81; }
+.social { background-color: #7536d3; }
+.self-care { background-color: #f1c75b; }
+
+.activity-card header {
+  margin-bottom: 1rem;
+}
+
+.activity-card h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.activity-data {
+  background-color: #1c1f4a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.activity-data .current {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity-data .previous {
+  font-size: 0.85rem;
+  color: #bbb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .report-options {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
